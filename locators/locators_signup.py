@@ -1,0 +1,20 @@
+from selenium.webdriver.common.by import By
+
+
+field_name = (By.ID, 'registerform-name')
+second_name = (By.ID, 'registerform-family')
+register_field_email = (By.ID, 'registerform-email')
+register_field_password = (By.ID, 'registerform-pass')
+field_country = (By.ID, 'select2-signup-country-select-container')
+recaptcha = (By.XPATH, '//*[@id="registerform-verifycode_captcha"]/div/div/iframe')
+submit_button = (By.CSS_SELECTOR, 'button[class="login100-form-btn button-loading"]')
+checkbox_balance = (By.XPATH, '//div[7]/button')
+menu_bar = (By.CLASS_NAME, "color-settings")
+delete_button = (By.CSS_SELECTOR, 'button[class="Button_button__QS2NC btn _inp-size4 color-danger"]')
+current_password = (By.CSS_SELECTOR, 'input[type="password"]')
+reasons_for_deletion = (By.CSS_SELECTOR, 'textarea[rows="5"]')
+delete_profile_button = (By.CSS_SELECTOR, 'button[class="Button_button__QS2NC btn color-danger"]')
+balance_button = (By.CSS_SELECTOR, 'a[class="btn-icon _size2 color-balance"]')
+disable_settings = (By.XPATH, '//div///dvd')
+small_page = (By.CSS_SELECTOR, 'div[class="rc-dialog-body"]')
+fail_signup_message = (By.XPATH, '//*[@id="form-signup"]/div[3]/div')
